@@ -1,0 +1,56 @@
+# Surge rule set without policy.
+# Reference from [Rule] with:
+# RULE-SET,https://example.com/AI-Domains.list,Proxy
+
+# OpenAI / ChatGPT
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# Anthropic / Claude
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# Google Gemini / AI Studio
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,ai.google.dev
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,accounts.google.com
+DOMAIN,apis.google.com
+DOMAIN,www.gstatic.com
+DOMAIN,ssl.gstatic.com
+
+# xAI / Grok
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+# Microsoft Copilot
+DOMAIN,copilot.microsoft.com
+DOMAIN,copilot.cloud.microsoft
+DOMAIN,sydney.bing.com
+DOMAIN,edgeservices.bing.com
+
+# Poe
+DOMAIN-SUFFIX,poe.com
+
+# Mistral Le Chat
+DOMAIN-SUFFIX,mistral.ai
+
+# DeepSeek
+DOMAIN-SUFFIX,deepseek.com
+
+# Meta AI
+DOMAIN-SUFFIX,meta.ai
